@@ -34,7 +34,50 @@
         color: #FFFFFF;
         font-size: 15px;
     }
+    nav ul li :hover{
+        color: #FF6B00;
+        transform: scale(1.2);
+    }
     #bars{
         display: none;
+    }
+    .logo {
+        margin-left: 142px;
+        font-size: 20px;
+        margin-top: 18px;
+    }
+    .page-1{
+        flex-direction: row;
+        align-items: center;
+        height: 600px;
+        background-image: url(images/Illustration-header.svg);
+        background-position-x: 600px;
+        background-position-y: -120px;
+    }
+    .text{
+        width: 556px;
+        margin-left: 143px;
+        padding: 170px 0px;
+    }
+    .text h1{
+        font-size: 72px;
+        line-height: 82px;
+        font-weight: 400px;
+    }
+    .text h2{
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .text p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .social-media{
+        flex-direction: column;
+        width: 30px;
+        position: absolute;
+        margin-left: 40px;
     }
   }
