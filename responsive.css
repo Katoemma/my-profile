@@ -1,0 +1,40 @@
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+    html{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    nav{
+        width: 100%;
+        height: 72px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        align-items: center;
+        margin-right: 142px;
+        gap: 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        padding: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    nav ul li a i{
+        color: #FFFFFF;
+        font-size: 15px;
+    }
+    #bars{
+        display: none;
+    }
+  }
