@@ -131,7 +131,7 @@ nav ul{
 .buttons{
     gap: 12px;
 }
-.button button{
+.buttons button{
     padding: 10px 12px;
     height: 40px;
     font-family: 'Inter';
@@ -153,9 +153,44 @@ nav ul{
 }
 .card{
     gap: 14px;
+    width: 327px;
+    height: 248px;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 12px;
+    background-image: url(images/image-placeholder.svg);
+}
+.card-details .card-text h1{
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #ffffff;
+}
+.card-details .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-details .buttons button{
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.24);
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
 }
 .card .see-project-button{
     width: 327px;
+    height: 48px;
     background: #FF6B00;
     gap: 10px;
     font-family: 'Inter';
