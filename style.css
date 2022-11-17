@@ -97,7 +97,7 @@ nav ul{
     font-size: 40px;
     line-height: 52px;
 }
-.div-card{
+.cards{
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -130,9 +130,6 @@ nav ul{
 }
 .buttons{
     gap: 12px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 .button button{
     padding: 10px 12px;
@@ -153,5 +150,20 @@ nav ul{
     color: #ffffff;
     background: #FF6B00;
     border: none;
-
 }
+.card{
+    gap: 14px;
+}
+.card .see-project-button{
+    width: 327px;
+    background: #FF6B00;
+    gap: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #ffffff;
+    border: none;
+}
+
