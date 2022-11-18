@@ -102,10 +102,9 @@ nav ul{
 .cards{
     display: flex;
     flex-direction: column;
-    padding: ;
     gap: 120px;
 }
-.card-1{
+.card-1 .card-1-text{
     width: 327px;
     display: flex;
     flex-direction: column;
