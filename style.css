@@ -289,4 +289,55 @@ nav ul{
 #required-skills ul{
     margin-left: -15px;
 }
+.page-4{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 24px;
+    align-items: center;
+    background-color: #FFFFFF;
+    gap: 58px;
+    padding-bottom: 72px;
+}
+.end-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172B4D;
+}
+.page-4 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.page-4 form input{
+    width: 327px;
+    height: 48px;
+    border: none;
+}
+#input{
+    border-bottom: 1px solid #d4c7c7;
+}
+#message{
+    height: 114px;
+    background: #FBF8F7;
+}
+#message::placeholder{
+    position: absolute;
+    color: black;
+}
+.page-4 form button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #FF6B00;
+    padding: 12px;
+    border: none;
+}
 
