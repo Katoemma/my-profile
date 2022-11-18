@@ -4,6 +4,7 @@ body{
     gap: 0px;
     margin-top: 0px;
     margin-left: 0px;
+    background-color: aqua;
 }
 nav{
     display: flex;
@@ -202,5 +203,85 @@ nav ul{
     line-height: 24px;
     color: #ffffff;
     border: none;
+}
+.page-3{
+    display: flex;
+    flex-direction: column;
+    background: #1C1A19;
+}
+.page-3-details{
+    padding: 120px 24px;
+    gap: 24px;
+}
+.page-3-details h1{
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.37px;
+    color: #FF6B00
+}
+.page-3-details p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F5F7;
+}
+.page-3-details button{
+    padding: 12px;
+    gap: 10px;
+    width: 161px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    background: #FF6B00;
+    color: #ffffff;
+    border: none;
+}
+.page-3 hr{
+    width: 327px;
+    color: #F4F5F7;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 24px;
+}
+.skill{
+    gap: 24px;
+}
+.skill h1{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #ffffff;
+}
+.skill ul{
+    list-style: none;
+    gap: 40px;
+}
+.skill ul li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#language ul{
+    margin-left: 10px;
+}
+#required-skills ul{
+    margin-left: -15px;
 }
 
