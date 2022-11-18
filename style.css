@@ -208,6 +208,10 @@ nav ul{
     display: flex;
     flex-direction: column;
     background: #1C1A19;
+    background-image: url(images/background-2-mobile.svg);
+    background-repeat: no-repeat;
+    background-position-x: 220px;
+    background-position-y: 465px;
 }
 .page-3-details{
     padding: 120px 24px;
@@ -243,6 +247,7 @@ nav ul{
     background: #FF6B00;
     color: #ffffff;
     border: none;
+    margin-bottom: 80px;
 }
 .page-3 hr{
     width: 327px;
