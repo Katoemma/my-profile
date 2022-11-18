@@ -80,4 +80,41 @@
         position: absolute;
         margin-left: 40px;
     }
+    .page-2{
+        padding: 0px 118px;
+        flex-direction: column;
+    }
+    .page-2 h1{
+        display:flex;
+        flex-direction: row;
+    }
+    .card-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card-1 img{
+        width: 684px;
+        height: 448px;
+        margin-left: 0px;
+    }
+    .card-1-text .card-text h1{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 24px;
+    }
+    #invisible{
+        visibility: hidden;
+    }
+    #card-b{
+        height: 200px;
+    }
+
+
+
   }
