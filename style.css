@@ -2,6 +2,8 @@ body{
     width: 375px;
     font-style: normal;
     gap: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 nav{
     display: flex;
