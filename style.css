@@ -16,6 +16,21 @@ nav{
 }
 nav ul{
     display: none;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    margin-right: 142px;
+    gap: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 .logo{
     margin-left: 12px;
