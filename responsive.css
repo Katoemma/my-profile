@@ -52,7 +52,7 @@
         align-items: center;
         height: 600px;
         background-image: url(images/Illustration-header.svg);
-        background-position-x: 600px;
+        background-position-x: 100%;
         background-position-y: -120px;
     }
     .text{
@@ -133,6 +133,8 @@
     .skills{
         display: flex;
         flex-direction: row;
+        padding-left: 70px;
+        padding-right: 100px;
         justify-content: space-between;
     }
     .page-4{
@@ -164,4 +166,55 @@
         padding-right: 5%;
     }
     
+  }
+  /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 720px) and (max-device-width: 1224px) {
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        display: flex;
+    }
+    #bars{
+        display: none;
+    }
+    .page-1{
+        align-items: center;
+        padding-left: 48px;
+        padding-right: 48px;
+        background-image:url(images/Illustration-header.svg) ;
+        background-position-y: 200px;
+        background-position-x: 100%;
+        background-size: 200px 500px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 48px;
+        padding-left: 24px;
+    }
+    .card-1{
+        display: flex;
+        gap: 12px;
+    }
+    .page-3{
+        background-image: url(images/Frame2.svg);
+        background-position-x: 100%;
+        background-position-y: 350px;
+        background-size: 300px 300px;
+    }
+    .page-3-details{
+        width: 375px;
+    }
+    .skills{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .page-4{
+        flex-direction: row;
+    }
+    .footer-icons{
+        width: 100px;
+        margin-left: 40%;
+    }
   }
