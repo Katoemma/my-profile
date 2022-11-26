@@ -118,7 +118,7 @@ nav ul li a{
 .cards{
     display: flex;
     flex-direction: column;
-    gap: 120px;
+    gap: 24px;
 }
 .card-1 .card-1-text{
     width: 327px;
@@ -172,7 +172,6 @@ nav ul li a{
 .card{
     gap: 14px;
     width: 327px;
-    height: 248px;
 }
 .card-details{
     display: flex;
