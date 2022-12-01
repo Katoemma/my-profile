@@ -31,6 +31,7 @@ nav ul li a{
     font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
+    display: block;
 }
 .logo{
     margin-left: 12px;
@@ -43,7 +44,30 @@ nav ul li a{
     line-height: 24px;
     color: #ffffff;
 }
-
+.nav-links{
+    display: inline-block;
+}
+.bars{
+    margin-left: 36px;
+    padding: 8px;
+    column-rule: white;
+    color: #ffffff;
+}
+.bar-1, .bar-2, .bar-3 {
+    width:30px;
+    height: 4px;
+    background-color: #FFFFFF;
+    margin: 6px auto;
+}
+.change .bar-1{
+    transform: rotate(-45deg) translate(-8px 5px);
+}
+.change .bar-2{
+    visibility: none;
+}
+.change .bar-3{
+    transform: rotate(45deg) translate(-7px, -7px );
+}
 .page-1{
     display: flex;
     flex-direction: column;
