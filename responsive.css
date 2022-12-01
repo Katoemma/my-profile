@@ -39,7 +39,7 @@
         color: #FF6B00;
         transform: scale(1.2);
     }
-    #bars{
+    .bars{
         display: none;
     }
     .logo {
@@ -175,7 +175,7 @@
     nav ul{
         display: flex;
     }
-    #bars{
+    .bars{
         display: none;
     }
     .page-1{
