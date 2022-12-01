@@ -52,21 +52,30 @@ nav ul li a{
     padding: 8px;
     column-rule: white;
     color: #ffffff;
+    padding-left: 200px;
 }
 .bar-1, .bar-2, .bar-3 {
-    width:30px;
+    width:35px;
     height: 4px;
     background-color: #FFFFFF;
     margin: 6px auto;
 }
 .change .bar-1{
-    transform: rotate(-45deg) translate(-8px 5px);
+    -webkit-transform:rotate(-45deg) translate(-9px, 6px);
+    transform:rotate(-45deg) translate(-9px, 6px);
 }
 .change .bar-2{
-    visibility: none;
+    visibility: hidden;
 }
 .change .bar-3{
-    transform: rotate(45deg) translate(-7px, -7px );
+    -webkit-transform:rotate(45deg) translate(-8px, -8px ) ;
+    transform:rotate(45deg) translate(-8px, -8px );
+}
+.show {
+    display: block;
+    background-color: #172B4D;
+    margin-top: auto;
+    margin-right: 0px;
 }
 .page-1{
     display: flex;
