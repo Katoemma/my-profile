@@ -113,9 +113,6 @@
     #invisible{
         display: none;
     }
-    #card-b{
-        height: 200px;
-    }
     .page-3{
         display: flex;
         flex-direction: column;
@@ -187,11 +184,14 @@
         background-position-x: 100%;
         background-size: 200px 500px;
     }
+    .page-2{
+        padding-left:5% ;
+        padding-right: 5%;
+    }
     .cards{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 48px;
-        padding-left: 24px;
+        margin-right: auto;
     }
     .card-1{
         display: flex;
